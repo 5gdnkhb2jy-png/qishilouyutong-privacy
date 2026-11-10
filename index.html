@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>骑士楼宇通 隐私政策</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1c1c1e;
+    --muted: #6e6e73;
+    --line: #e5e5ea;
+    --fill: #f5f5f7;
+    --accent: #0a64d6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #000000;
+      --fg: #f2f2f7;
+      --muted: #98989d;
+      --line: #2c2c2e;
+      --fill: #1c1c1e;
+      --accent: #4b9bff;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Hiragino Sans GB", "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+  }
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 32px 20px 64px;
+  }
+  h1 {
+    font-size: 1.75em;
+    line-height: 1.3;
+    margin: 0 0 16px;
+    letter-spacing: -0.01em;
+  }
+  h2 {
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin: 40px 0 12px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+  }
+  p { margin: 0 0 14px; }
+  ul, ol { margin: 0 0 14px; padding-left: 1.4em; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .meta {
+    color: var(--muted);
+    font-size: 0.92em;
+    margin: 0 0 4px;
+  }
+  .lead { color: var(--muted); }
+  .notice {
+    background: var(--fill);
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin: 18px 0;
+  }
+  .table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 0 0 18px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 560px;
+    font-size: 0.95em;
+  }
+  th, td {
+    text-align: left;
+    vertical-align: top;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--line);
+  }
+  th {
+    background: var(--fill);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  tr:last-child td { border-bottom: none; }
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.9em;
+  }
+  footer p { margin: 6px 0; }
+  .placeholder {
+    background: var(--fill);
+    border-radius: 4px;
+    padding: 0 4px;
+  }
+  @media (max-width: 480px) {
+    body { font-size: 16px; }
+    main { padding: 24px 16px 48px; }
+    h1 { font-size: 1.5em; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>骑士楼宇通 隐私政策</h1>
+  <p class="meta">生效日期：<span class="placeholder">【待填写：YYYY-MM-DD】</span></p>
+  <p class="meta">更新日期：<span class="placeholder">【待填写：YYYY-MM-DD】</span></p>
+  <p class="meta">适用版本：iOS 1.0 及以上</p>
+
+  <h2 id="who">一、我们是谁</h2>
+  <p>「骑士楼宇通」（下称「本 App」）是一款面向外卖、快递等骑手的楼宇信息工具，帮助骑手查看小区、楼栋、单元的进门方式与楼宇信息，并提供骑行码表与轨迹记录。</p>
+  <p>本 App 的个人信息处理者是：<strong><span class="placeholder">【待填写：开发者姓名】</span></strong>（个人开发者）。<br>
+  联系方式：<strong><span class="placeholder">【待填写：客服邮箱】</span></strong>。</p>
+  <p>本政策说明我们在你使用本 App 时如何处理你的信息。使用本 App 前，请阅读并理解本政策。</p>
+
+  <h2 id="data">二、我们处理哪些信息</h2>
+  <p>本 App 的核心设计是<strong>数据保存在你的设备上</strong>。除下文明确说明的 Apple 系统服务外，我们不会把你的信息上传到我们自己的服务器。</p>
+  <p>按 App Store 对「收集」的定义（数据离开设备并可被开发者或第三方合作伙伴访问），本 App 不向开发者或第三方合作伙伴传输数据，App Store 隐私标签为「不收集数据」。下表中的信息均只在本机处理；语音识别由 Apple 系统服务完成，不属于开发者收集，详见第五节。</p>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>信息类型</th><th>产生场景</th><th>处理目的</th><th>保存位置</th><th>是否上传到我们的服务器</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>精确位置</td><td>你使用地图定位、查看附近小区、导航、记录骑行时</td><td>匹配当前小区、显示你的位置、计算距离与路线、记录轨迹与速度</td><td>本机</td><td>否</td></tr>
+        <tr><td>骑行轨迹与骑行数据</td><td>你主动开始记录骑行时</td><td>记录路线、速度、里程、时长，供你查看与导出</td><td>本机</td><td>否</td></tr>
+        <tr><td>楼宇与进门信息</td><td>你主动录入小区、楼栋、单元、进门方式、密码、备注时</td><td>供你本人查看；你可选择通过共享口令在本机之间共享</td><td>本机</td><td>否</td></tr>
+        <tr><td>照片</td><td>你主动拍摄或从相册选择楼栋招牌、门牌、门禁照片时</td><td>留存门口实际情况、校对门牌文字</td><td>本机</td><td>否</td></tr>
+        <tr><td>语音与转写文字</td><td>你主动点击录音、使用语音输入或语音备注时</td><td>把语音转成文字，减少手动输入</td><td>音频与文字保存在本机</td><td>否（语音识别由 Apple 服务完成，见第五节）</td></tr>
+        <tr><td>昵称、头像</td><td>你主动设置时</td><td>在本机展示、在共享内容中署名</td><td>本机</td><td>否</td></tr>
+        <tr><td>Apple 登录标识</td><td>你主动使用「通过 Apple 登录」时</td><td>用于本机身份识别与共享内容署名</td><td>本机钥匙串</td><td>否</td></tr>
+        <tr><td>设备标识</td><td>首次启动时自动生成</td><td>区分本机数据归属、防止不同设备数据混淆</td><td>本机钥匙串</td><td>否</td></tr>
+        <tr><td>举报与黑名单记录</td><td>你主动举报内容或屏蔽用户时</td><td>记录你的举报与屏蔽选择</td><td>本机</td><td>否</td></tr>
+        <tr><td>崩溃诊断</td><td>App 异常退出后再次启动时</td><td>在本机记录崩溃原因，便于你反馈问题</td><td>本机</td><td>否</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p><strong>我们不会收集</strong>：你的姓名、手机号、身份证号、通讯录、短信、相册全量内容、广告标识符（IDFA），也不会建立用于广告的用户画像。</p>
+  <p><strong>关于公开库</strong>：本 App 的 App Store 正式版本不启用 iCloud/CloudKit 公共库，不会把你的楼宇信息、密码、轨迹上传到任何服务器。若未来版本启用公共库，我们会在启用前更新本政策，并在 App 内单独征得你的同意。</p>
+
+  <h2 id="permissions">三、设备权限说明</h2>
+  <p>我们只在你主动使用对应功能时申请权限或启用对应能力；拒绝授权不影响其他功能的使用。</p>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>权限</th><th>申请时机</th><th>用途</th><th>拒绝后的影响</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>定位（使用 App 期间）</td><td>首次打开地图或使用定位功能时</td><td>匹配当前小区、显示位置、导航、计算距离</td><td>可手动选点或搜索地址，地图仍可使用</td></tr>
+        <tr><td>定位（始终允许）</td><td>你主动开启「锁屏继续记录」时单独申请</td><td>锁屏或切到后台时继续记录骑行轨迹</td><td>仅前台记录，锁屏后轨迹会中断</td></tr>
+        <tr><td>相机</td><td>你点击拍照时</td><td>拍摄楼栋招牌、门牌、门禁照片</td><td>可从相册选择或跳过</td></tr>
+        <tr><td>相册（系统选择器）</td><td>你点击选择照片时</td><td>使用系统照片选择器，仅把你选中的照片交给 App，不请求相册全量访问</td><td>可拍照或跳过</td></tr>
+        <tr><td>麦克风</td><td>你点击录音时</td><td>语音输入、语音备注</td><td>可手动输入</td></tr>
+        <tr><td>语音识别</td><td>你点击语音输入时</td><td>把语音转成文字</td><td>可手动输入</td></tr>
+        <tr><td>Face ID / 触控 ID</td><td>你查看门禁密码时</td><td>本机身份验证，验证后才显示密码</td><td>可改用其他本机验证方式或不查看</td></tr>
+        <tr><td>实时活动（锁屏/灵动岛）</td><td>你开启骑行码表实时活动时</td><td>在锁屏与灵动岛显示骑行状态与到达提醒</td><td>不影响记录本身</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Face ID 的比对由 iOS 安全隔区完成，本 App 不读取、不保存、不上传任何面部数据。</p>
+
+  <h2 id="storage">四、存储位置与保存期限</h2>
+  <ol>
+    <li>上述信息均保存在你的设备上（App 沙盒与系统钥匙串）。</li>
+    <li>保存期限为：<strong>直至你在 App 内删除、或卸载本 App</strong>。卸载 App 会删除 App 沙盒内的楼宇、足迹、骑行轨迹、照片、语音与举报记录；系统钥匙串中的设备标识可能由 iOS 保留（是否保留取决于系统版本）。</li>
+    <li>你可以在「我的 → 记录与数据」中导出 JSON 备份或 GPX 轨迹；导出动作由你主动发起，文件去向由你在系统分享面板中选择。</li>
+  </ol>
+
+  <h2 id="thirdparty">五、共享、委托处理与第三方</h2>
+  <p>我们<strong>不出售</strong>你的个人信息，也<strong>不</strong>将你的信息用于广告追踪。当前版本未集成第三方广告或统计分析 SDK。</p>
+  <p>以下情形会使用 Apple 提供的系统服务，相关数据由 Apple 按其隐私政策处理：</p>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>服务</th><th>使用场景</th><th>可能涉及的数据</th><th>说明</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Apple 地图（MapKit）</td><td>地图底图、地点搜索、路线规划</td><td>地图请求、位置与搜索词</td><td>由 Apple 处理，适用 Apple 隐私政策</td></tr>
+        <tr><td>Apple 语音识别（Speech）</td><td>语音转文字</td><td>音频</td><td>由 Apple 处理；部分语言/设备在联网时可能由 Apple 服务器识别，我们不在自己的服务器保存音频</td></tr>
+        <tr><td>通过 Apple 登录（Sign in with Apple）</td><td>你主动登录时</td><td>Apple 返回的用户标识</td><td>我们只在本机保存该标识，不获取、不保存你的姓名与邮箱</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Apple 的隐私政策见：<a href="https://www.apple.com/legal/privacy/">https://www.apple.com/legal/privacy/</a></p>
+  <p>除上述系统服务、法律法规要求或你明确同意外，我们不会向任何第三方提供你的个人信息。</p>
+
+  <h2 id="crossborder">六、数据出境</h2>
+  <p>我们自身不将你的信息传输至中国境外。使用 Apple 地图、Apple 语音识别、通过 Apple 登录时，相关请求可能由 Apple 在境外处理，具体以 Apple 的隐私政策为准。</p>
+
+  <h2 id="account">七、账号与身份</h2>
+  <ol>
+    <li>本 App <strong>不需要注册账号</strong>即可使用查看、录入、导航、码表与轨迹等全部本机功能。</li>
+    <li>「通过 Apple 登录」是可选项，仅用于在本机标识你的身份与共享内容署名。我们不会因此建立服务器账号，也不会获取你的姓名、邮箱或 Apple ID 密码。</li>
+    <li>你可以随时在「我的 → 账号 → 退出 Apple 登录」解除登录。退出只解除本机署名，不会删除本机已有的楼宇、密码与轨迹数据。</li>
+    <li>如需删除本机全部数据，可直接删除本 App（系统钥匙串中的设备标识可能由 iOS 保留）；如需我们协助处理你曾主动发送给客服的信息，请联系 <strong><span class="placeholder">【待填写：客服邮箱】</span></strong>。</li>
+  </ol>
+
+  <h2 id="rights">八、你的权利</h2>
+  <p>你有权：</p>
+  <ol>
+    <li><strong>查阅、复制</strong>：在 App 内查看你的楼宇、密码、轨迹与足迹，并可导出 JSON / GPX。</li>
+    <li><strong>更正、补充</strong>：在 App 内编辑你创建的内容。</li>
+    <li><strong>删除</strong>：在 App 内删除单条内容，或卸载 App 删除全部本机数据。</li>
+    <li><strong>撤回同意</strong>：在 iOS「设置 → 隐私与安全性」中随时关闭定位、相机、麦克风、语音识别、Face ID 等权限。</li>
+    <li><strong>注销身份</strong>：在「我的 → 账号」退出 Apple 登录。</li>
+    <li><strong>投诉与咨询</strong>：通过 <strong><span class="placeholder">【待填写：客服邮箱】</span></strong> 联系我们；我们会在收到请求后尽快处理。</li>
+  </ol>
+  <p>由于本 App 的数据主要保存在你的设备上，部分删除操作需要你在设备上完成；我们无法远程读取或删除你设备上的数据。</p>
+
+  <h2 id="minors">九、未成年人</h2>
+  <p>本 App 面向成年骑手，不主动面向儿童。若你是不满 14 周岁的未成年人，请在监护人同意并陪同下使用。若我们发现误收集了儿童个人信息，会尽快删除。</p>
+
+  <h2 id="security">十、安全措施</h2>
+  <p>我们采取以下措施保护本机数据：</p>
+  <ul>
+    <li>身份标识保存在系统钥匙串；</li>
+    <li>查看门禁密码前需通过 Face ID / 触控 ID 或本机验证；</li>
+    <li>App 切到后台时对多任务快照进行遮挡；</li>
+    <li>共享内容按你设置的共享口令在本机加密；</li>
+    <li>不接入第三方广告或统计分析 SDK。</li>
+  </ul>
+  <p>但请注意：任何系统都无法保证绝对安全。请勿在公共设备上保存敏感门禁信息，并妥善保管你的设备与共享口令。</p>
+  <p>如发生个人信息泄露、篡改或丢失，我们会立即采取补救措施，并按法律法规要求告知你并向有关主管部门报告。</p>
+
+  <h2 id="updates">十一、政策更新</h2>
+  <p>我们可能因功能变化或法规要求更新本政策。更新后会在本页面标注新的更新日期；涉及重大变化时，我们会在 App 内以显著方式提示你。继续使用即表示你接受更新后的政策。</p>
+
+  <h2 id="contact">十二、联系我们</h2>
+  <p>如对本政策有任何疑问、意见或投诉，可通过以下方式联系我们：</p>
+  <ul>
+    <li>邮箱：<strong><span class="placeholder">【待填写：客服邮箱】</span></strong></li>
+    <li>App 内路径：「我的 → 关于与帮助 → 联系客服」或「我的 → 关于与帮助 → 反馈」</li>
+  </ul>
+  <p>我们会在收到你的请求后尽快回复。</p>
+
+  <footer>
+    <p>本页是《骑士楼宇通 隐私政策》的网页版，内容与 App 内文本一致。</p>
+    <p><a href="support.html">支持与联系</a></p>
+  </footer>
+</main>
+</body>
+</html>
